@@ -1,0 +1,77 @@
+/* Write some CSS below */
+body {
+    
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgba(0,0,0,0.1) ;
+
+}
+
+
+.container{
+    width: 700px;
+    margin: 40px auto;
+    background-color:rgba(0,0,0,0.1)
+   
+}
+
+
+.card-black{
+color: black;
+border: 3px solid black;
+background-image: url("images/photo html.jpg");
+background-size: cover;
+background-position: center;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0px 10px 20px rgba(0,0,0,0.1); 
+margin: 30px 0;
+}
+
+.card-black p{
+    margin-bottom: 25px;
+}
+#Logo {
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+   
+ .list-inline{
+        list-style: none;
+        padding-left: 0;
+ }
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline li i {
+    font-size: 40px;
+    color: black;
+
+}
+
+.card-white{
+background-color:whitesmoke;
+color: black;
+border: 3px solid black;
+border-color: black;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+margin: 30px 0;
+}
+
+
+.btn-red{
+
+    color:white;
+    background-color:rgb(248, 94, 120);
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
